@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lnLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_weight="10" >
+
+            <TextView
+                android:id="@+id/txt_timer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:gravity="right|center_vertical"
+                android:text="15"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sandclock" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_bomb"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:src="@drawable/explosion_33" />
+
+        <TextView
+            android:id="@+id/txt_random"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_user_text"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/textbox_ingame"
+        android:gravity="center"
+        android:inputType="textNoSuggestions"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+</LinearLayout>

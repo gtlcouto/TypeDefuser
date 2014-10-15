@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF247992" >
+
+    <ImageView
+        android:id="@+id/about_tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/layout_marginTop_general"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:src="@drawable/logo_game" />
+
+    <LinearLayout
+        android:id="@+id/about_ln_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/about_tv_logo"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/about_img_bd_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@null"
+            android:src="@drawable/blackline" />
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about_text"
+            android:textAlignment="center"
+            android:textColor="#eaeaea"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</RelativeLayout>

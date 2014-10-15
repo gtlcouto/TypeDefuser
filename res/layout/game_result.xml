@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:contentDescription="@null" -->
+    <!-- android:src="@drawable/background" /> -->
+
+    <TextView
+        android:id="@+id/tv_text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/layout_marginTop_game_result"
+        android:gravity="center"
+        android:text="kkkkkkkkkkkkkkkkkkkk"
+        android:textColor="#eaeaea"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:id="@+id/game_result_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_text_result"
+        android:layout_marginTop="15dp"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/game_result_ln_user_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/game_result_tv_user_score_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Your score"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/game_result_tv_user_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="12"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/game_result_ln_highest_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_result_ln_user_score"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/game_result_tv_highest_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Highest score"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/game_result_tv_highest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/game_result_rl_play_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_result_score"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:onClick="onClick" >
+
+        <ImageView
+            android:id="@+id/game_result_img_play_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:src="@drawable/button_normal" />
+
+        <TextView
+            android:id="@+id/game_result_tv_play_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:text="Play Again"
+            android:textColor="#eaeaea"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

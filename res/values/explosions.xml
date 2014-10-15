@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="explosions">
+<!--         <item>explosion_01</item> -->
+<!--         <item>explosion_02</item> -->
+        <item>explosion_03</item>
+<!--         <item>explosion_04</item> -->
+<!--         <item>explosion_05</item> -->
+        <item>explosion_06</item>
+<!--         <item>explosion_07</item> -->
+<!--         <item>explosion_08</item> -->
+        <item>explosion_09</item>
+<!--         <item>explosion_10</item> -->
+<!--         <item>explosion_11</item> -->
+        <item>explosion_12</item>
+<!--         <item>explosion_13</item> -->
+<!--         <item>explosion_14</item> -->
+        <item>explosion_15</item>
+<!--         <item>explosion_16</item> -->
+<!--         <item>explosion_17</item> -->
+        <item>explosion_18</item>
+<!--         <item>explosion_19</item> -->
+<!--         <item>explosion_20</item> -->
+        <item>explosion_21</item>
+<!--         <item>explosion_22</item> -->
+<!--         <item>explosion_23</item> -->
+        <item>explosion_24</item>
+<!--         <item>explosion_25</item> -->
+<!--         <item>explosion_26</item> -->
+        <item>explosion_27</item>
+<!--         <item>explosion_28</item> -->
+<!--         <item>explosion_29</item> -->
+        <item>explosion_30</item>
+<!--         <item>explosion_31</item> -->
+<!--         <item>explosion_32</item> -->
+        <item>explosion_33</item>
+<!--         <item>explosion_34</item> -->
+<!--         <item>explosion_35</item> -->
+        <item>explosion_36</item>
+<!--         <item>explosion_37</item> -->
+<!--         <item>explosion_38</item> -->
+        <item>explosion_39</item>
+<!--         <item>explosion_40</item> -->
+<!--         <item>explosion_41</item> -->
+        <item>explosion_42</item>
+        <item>explosion_43</item>
+        <item>explosion_44</item>
+    </string-array>
+
+</resources>

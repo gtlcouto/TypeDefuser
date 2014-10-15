@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> Type Defuser</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="play_again">Play Again</string>
+    <string name="level_prompt">Choose a level</string>
+
+    <string-array name="level_arrays">
+        <item>Level Easy</item>
+        <item>Level Medium</item>
+        <item>Level Hard</item>
+    </string-array>
+
+    <string name="welcome_text">Welcome to Type Defuser</string>
+    <string name="about_text">Game created by Gustavo Couto!</string>
+
+</resources>

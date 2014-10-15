@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:contentDescription="@null" -->
+    <!-- android:src="@drawable/background" /> -->
+
+    <ImageView
+        android:id="@+id/high_score_tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/layout_marginTop_general"
+        android:src="@drawable/logo_game" />
+
+    <LinearLayout
+        android:id="@+id/mainmenu_ln_all_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/high_score_tv_logo"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/mainmenu_rl_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/welcome_btn_difficult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:gravity="center"
+                android:src="@drawable/button_normal" />
+
+            <TextView
+                android:id="@+id/mainmenu_tv_difficult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:text="SELECT A DIFFICULT"
+                android:textColor="#eaeaea"
+                android:textSize="19sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mainmenu_rl_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/welcome_btn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:gravity="center"
+                android:src="@drawable/button_normal" />
+
+            <TextView
+                android:id="@+id/mainmenu_tv_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:text="START"
+                android:textColor="#eaeaea"
+                android:textSize="19sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mainmenu_rl_high_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/welcome_btn_high_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:gravity="center"
+                android:src="@drawable/button_normal" />
+
+            <TextView
+                android:id="@+id/mainmenu_tv_high_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:text="HIGH SCORE"
+                android:textColor="#eaeaea"
+                android:textSize="19sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mainmenu_rl_high_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClick" >
+
+            <ImageView
+                android:id="@+id/welcome_btn_high_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:gravity="center"
+                android:src="@drawable/button_normal" />
+
+            <TextView
+                android:id="@+id/mainmenu_tv_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:text="ABOUT"
+                android:textColor="#eaeaea"
+                android:textSize="19sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

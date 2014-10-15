@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF247992" >
+
+    <TextView
+        android:id="@+id/splash_tv_line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_marginTop_splash"
+        android:gravity="center"
+        android:textColor="#eaeaea"
+        android:text="You have one minutes..."
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/splash_tv_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_tv_line1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#eaeaea"
+        android:text="Defuse as many bomb as you can"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/splash_tv_count_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/splash_tv_line2"
+        android:layout_marginTop="40dp"
+        android:text="3"
+        android:textColor="#eaeaea"
+        android:textSize="75sp" />
+
+</RelativeLayout>

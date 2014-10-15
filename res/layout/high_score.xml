@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF247992" >
+
+    <ImageView
+        android:id="@+id/high_score_tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:layout_marginTop="@dimen/layout_marginTop_general"
+        android:gravity="center"
+        android:src="@drawable/logo_game" />
+
+    <LinearLayout
+        android:id="@+id/high_score_ln_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/high_score_tv_logo"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/high_score_ln_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/high_score_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HIGH SCORE"
+                android:textColor="#ef4f0c"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/high_score_img_bbline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/blackline" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/high_score_ln_difficult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/high_score_tv_difficult"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Difficult:"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/high_score_tv_words"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="# words"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/high_score_ln_easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/high_score_tv_easy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Easy"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/high_score_tv_easy_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="12"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/high_score_ln_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/high_score_tv_medium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Medium"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/high_score_tv_easy_medium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/high_score_ln_hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/high_score_tv_hard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Hard"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/high_score_tv_easy_hard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/tv_unlimited"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Unlimited"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/high_score_tv_unlimited"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#eaeaea"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

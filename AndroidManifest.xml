@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gamebomb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.activity.WelcomeGame"
+            android:label="@string/app_name"   
+            android:alwaysRetainTaskState="false"                  
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.activity.PlayBombActivity"
+            android:label="Type Defuser"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.activity.GameResult"
+            android:label="Result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.About"
+            android:label="About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.SplashCount"
+            android:label="Splash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.HighScore"
+            android:label="High Score"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.LevelChoice"
+            android:label="Level Choice"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
